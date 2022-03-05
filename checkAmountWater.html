@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<h1>checkAmountWater</h1>
+
+<div id="div-prev-setting">
+    <label>목표 치를 입력해주세요 (L)
+        <input id="target-liter" type="number">
+
+    </label>
+
+    <div style="margin-top: 1rem;">
+        <label>한 컵의 용량을 입력해주세요 (ml)
+            <input id="bottle-liter" type="number">
+            <button id="btn-setting-amount-water">확인</button>
+        </label>
+    </div>
+</div>
+
+
+<div id="div-drink-water">
+
+    <img src="/bottle-water.png">
+
+    <button id="add-cups" style="margin-bottom: 0.5rem;">+ 한 컵 추가 !</button>
+    <div>
+        <span id="present">현재 :</span>
+    </div>
+    <div>
+        <span id="target">목표 :</span>
+    </div>
+
+    <div>
+        <span id="percentage">달성률 :</span>
+    </div>
+
+    <div>
+        <span id="remaining-cup">앞으로 :</span>
+    </div>
+
+</div>
+
+<script src="popup.js"></script>
+
+
+</body>
+</html>
